@@ -6,7 +6,17 @@ O sistema monitora comentários e presentes (gifts) enviados durante uma Live e 
 ### Fiquem a vontade para alterar as funções, implementar novas, colocar mais atuadores, controladores, relés...
 
 ---
+## 🚀 Como Configurar
 
+### 1. Preparação do Arduino
+Carregue o código disponível na pasta `/arduino` para sua placa. Certifique-se de que os servos estão conectados nos pinos 9 e 10. Leds, 12 e 13.
+
+### 2. Configuração do Python
+Clone este repositório e instale as dependências:
+```bash
+pip install tiktoklive pyserial
+```
+---
 ## 🛠️ Tecnologias e Hardware
 
 * **Linguagem:** Python 3.10+
@@ -32,14 +42,4 @@ O projeto é dividido em duas camadas principais:
 | **LED Azul** | D12 | Gatilho de Comentários |
 | **LED Verde** | D13 | Gatilho de Presentes |
 
----
-
-## 🚀 Como Configurar
-
-### 1. Preparação do Arduino
-Carregue o código disponível na pasta `/arduino` para sua placa. Certifique-se de que os servos estão conectados nos pinos 9 e 10.
-
-### 2. Configuração do Python
-Clone este repositório e instale as dependências:
-```bash
-pip install tiktoklive pyserial
+--- 
